@@ -1,4 +1,5 @@
 # Alien Vault OTX integration with Wazuh [2024]
+## The script integrates AlienVault OTX with Wazuh and uses Python for implementation.
 
 Make sure that wazuh have installed OTXv2 
 ```bash
@@ -126,10 +127,12 @@ get_malicious.py
 ```bash
 https://github.com/AlienVault-OTX/OTX-Python-SDK/blob/master/examples/is_malicious/get_malicious.py
 ```
-🚨Remember after you have created this three files to do🚨
+🚨 After creating these three files, make sure to execute the following 
+command in the terminal to set the ownership and permissions correctly:
 ```bash
 chown root:wazuh custom-alienvault custom-alienvault.py get_malicious.py && chmod 750 custom-alienvault custom-alienvault.py get_malicious.py
 ```
+
 ## Strings to be included in var/ossec/etc/ossec.conf
 ```pyhton
 <integration>
