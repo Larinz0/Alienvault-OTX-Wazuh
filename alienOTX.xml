@@ -1,0 +1,7 @@
+<group name="alienvault_alert,">
+ <rule id="100010" level="12">
+    <field name="integration">alienvault</field>
+    <description>AlienVault - OTX DOMAIN Found</description>
+    <options>no_full_log</options>
+  </rule>
+</group>
