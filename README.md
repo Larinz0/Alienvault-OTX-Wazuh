@@ -94,7 +94,7 @@ def send_event(msg, agent=None):
 false = False
 
 # Set up AlienVault OTX API key and server URL
-API_KEY = '530332a9b85e72efa6e0d70124916bcc896901e5216616fb80d321b232d32de4'
+API_KEY = 'APIKEY'
 OTX_SERVER = 'https://otx.alienvault.com/'
 otx = OTXv2(API_KEY, server=OTX_SERVER)
 
